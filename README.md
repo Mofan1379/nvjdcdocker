@@ -1,6 +1,10 @@
 # nvjdc
 
 
+## 注意 注意注意
+    HUBdcoker里面有一个 nolanjdc/nvjdc 镜像不要拉 我看还有500多人拉了 起名都有所图 别的我不多说了把
+
+    我自己的docker  nolanhzy/nvjdc 认清楚
 ## 提示
 
 由于我自己的环境是centos x86，arm不支持
