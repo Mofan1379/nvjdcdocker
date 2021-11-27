@@ -22,7 +22,7 @@
 2删除NETJDC.deps.json
 
 
-3如果是Windows service根据自己系统将dll复制根目录即可
+3如果是windows server根据自己系统将dll复制根目录即可
 
 64位
 复制runtimes\win-x64\native\OpenCvSharpExtern.dll到根目录
