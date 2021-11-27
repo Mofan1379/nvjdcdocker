@@ -23,12 +23,12 @@
 安装地址:https://dotnet.microsoft.com/download/dotnet/5.0
 下载之后无脑下一步
 
-#2下载当前项目源码解压
+# 2下载当前项目源码解压
 
-#3删除NETJDC.deps.json
+# 3删除NETJDC.deps.json
 
 
-#4如果是windows server根据自己系统将dll复制根目录即可
+# 4如果是windows server根据自己系统将dll复制根目录即可
 
 64位
 
@@ -38,7 +38,7 @@
 
 复制runtimes\win-x86\native\OpenCvSharpExtern.dll到根目录
 
-#启动 
+# 启动 
 
  管理员打开CMD CD到源码文件夹中  输入 dotnet NETJDC.dll --urls=http://*:5000
 
