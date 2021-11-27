@@ -2,9 +2,11 @@
 
 
 ## 注意 注意注意
+
     HUBdcoker里面有一个 nolanjdc/nvjdc 镜像不要拉 我看还有500多人拉了 起名都有所图 别的我不多说了把
 
     我自己的docker  nolanhzy/nvjdc 认清楚
+
 ## 提示
 
 由于我自己的环境是centos x86，arm不支持
@@ -13,8 +15,23 @@
 
 不是热更新 每次修改配置需要重启容器
 
+## Windows安装教程
 
-## 安装教程
+1下载源码
+
+2删除NETJDC.deps.json
+
+
+3如果是Windows service根据自己系统将dll复制根目录即可
+
+64位
+复制runtimes\win-x64\native\OpenCvSharpExtern.dll到根目录
+
+32位
+
+复制runtimes\win-x86\native\OpenCvSharpExtern.dll到根目录
+
+## docker安装教程
 
 如果你是装过NVjdc 先看看后面1.2以前如何更新之1.2升级说明
 
