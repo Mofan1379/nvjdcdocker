@@ -17,19 +17,32 @@
 
 ## Windows安装教程
 
-1下载源码
 
-2删除NETJDC.deps.json
+# 1安装ASP.NET Core Runtime 5.0.12
+
+安装地址:https://dotnet.microsoft.com/download/dotnet/5.0
+下载之后无脑下一步
+
+#2下载当前项目源码解压
+
+#3删除NETJDC.deps.json
 
 
-3如果是windows server根据自己系统将dll复制根目录即可
+#4如果是windows server根据自己系统将dll复制根目录即可
 
 64位
+
 复制runtimes\win-x64\native\OpenCvSharpExtern.dll到根目录
 
 32位
 
 复制runtimes\win-x86\native\OpenCvSharpExtern.dll到根目录
+
+#启动 
+
+ 管理员打开CMD CD到源码文件夹中  输入 dotnet NETJDC.dll --urls=http://*:5000
+
+ 后面那个是端口可以自己改
 
 ## docker安装教程
 
