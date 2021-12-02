@@ -80,7 +80,7 @@ mkdir -p  Config && cd Config
 ```
 
 5下载config.json 配置文件 并且修改自己的配置 不能缺少
-
+源码库已经关闭了Json 需要自行需找。
 
 ```
 wget -O Config.json  https://raw.githubusercontent.com/NolanHzy/nvjdc/main/Config.json
