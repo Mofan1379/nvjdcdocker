@@ -144,14 +144,13 @@ kill -9 680536
 ```
 cd /root/nolanjdc
 ```
-```
-docker stop nolanjdc
-```
+
 ```
 git pull
 ```
 ```
-docker start nolanjdc
+nohup dotnet NETJDC.dll --urls=http://*:5701 1>"$(pwd)"/log 2>&1 & #ARM64
+
 ```
 
 
