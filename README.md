@@ -134,6 +134,11 @@ docker logs -f nolanjdc
 
 出现 NETJDC  started 即可 
 
+## Arm安装教程
+
+
+安装地址 https://github.com/NolanHzy/nvjdcdocker/blob/main/Arm%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E.md
+
 
 ## 1.2以前如何更新之1.2
 如果你是装过NVjdc 并且root下存在nolanjdc 文件夹
