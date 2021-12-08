@@ -46,8 +46,7 @@ sudo apt-get install  chromium-browser
 mkdir -p  Config && cd Config
 ```
 
-6下载config.json 配置文件 并且修改自己的配置 不能缺少
-源码库已经关闭了Json 需要自行需找。
+6手动建立config.json 配置文件 
 注意ARM多一个配置 Captchaurl
 
 ```

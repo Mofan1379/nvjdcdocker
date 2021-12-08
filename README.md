@@ -28,7 +28,7 @@
 # 3删除NETJDC.deps.json
 
 
-# 4如果是windows server根据自己系统将dll复制根目录即可
+# 4根据自己系统将dll复制根目录即可
 
 64位
 
