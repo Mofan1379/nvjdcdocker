@@ -46,7 +46,7 @@ sudo apt-get install  chromium-browser
 mkdir -p  Config && cd Config
 ```
 
-6手动建立config.json 配置文件 
+6手动建立Config.json 配置文件 
 注意ARM多一个配置 Captchaurl
 
 ```
@@ -96,8 +96,10 @@ mkdir -p  Config && cd Config
 }
 ```
 
-7回到刚刚创建的目录 下载NET5.sh
-
+7回到的目录 下载NET5.sh
+```
+ cd /root/nolanjdc
+```
 ```
 wget https://dot.net/v1/dotnet-install.sh
 ```
@@ -148,6 +150,13 @@ cd /root/nolanjdc
 ```
 git pull
 ```
+
+
+```
+export PATH="$PATH:$HOME/.dotnet"
+```
+
+
 ```
 nohup dotnet NETJDC.dll --urls=http://*:5701 1>"$(pwd)"/log 2>&1 & #ARM64
 
