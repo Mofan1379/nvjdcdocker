@@ -113,7 +113,7 @@ chmod 777 dotnet-install.sh
 9 下载NET5
 
 ```
-./dotnet-install.sh -c 6.0
+./dotnet-install.sh -c 5.0
 ```
 
 10设置 path
